@@ -1,0 +1,12 @@
+# Complete offline model/tokenizer directories. Fill these before extraction.
+esm2_model_dir: /EDIT/esm2_t33_650M_UR50D
+prott5_model_dir: /EDIT/prot_t5_xl_half_uniref50-enc
+prott5_tokenizer_dir: /EDIT/prot_t5_xl_uniref50
+device: cuda:0
+profile: screen
+id_policy: exact
+esm2_batch_size: 1
+prott5_batch_size: 1
+prott5_max_residues: 4000
+prott5_precision: float16
+prott5_long_sequence_policy: encode_full_then_truncate

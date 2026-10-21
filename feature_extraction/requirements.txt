@@ -1,0 +1,8 @@
+# Historical feature pipeline versions; choose a matching CUDA PyTorch build.
+torch==2.9.1
+transformers==4.48.1
+sentencepiece==0.2.1
+numpy==1.26.4
+h5py==3.16.0
+PyYAML==6.0.3
+safetensors>=0.4,<1

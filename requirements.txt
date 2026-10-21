@@ -1,0 +1,6 @@
+# Install a suitable PyTorch build separately; torch is needed for all workflows.
+torch>=2.0
+numpy>=1.24,<3
+pandas>=1.5,<3
+h5py>=3.8,<4
+scikit-learn>=1.2,<2
